@@ -71,7 +71,7 @@ function App() {
          ( <FormSelect key={index} value={values[field.name]} onChange={handleChange} {...field}/>)}
         </>
       ))
-    }
+    } 
     <button>Submit</button>
     </form>
   );
