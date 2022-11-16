@@ -62,6 +62,8 @@ function App() {
 
   return (
     <form onSubmit={handleSubmit} >
+      <div className="extra">
+
     {
       inputFields.map((field,index)=>(
         <>
@@ -73,6 +75,8 @@ function App() {
       ))
     } 
     <button>Submit</button>
+    </div>
+
     </form>
   );
 }
